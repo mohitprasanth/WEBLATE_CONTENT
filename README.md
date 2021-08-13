@@ -19,3 +19,7 @@ $ sts
 
 $ Enter Token: <Enter your MFA token>
 ```
+
+
+This will generate temporary credentials with 36hrs of validity.
+Set's the corresponsing ENV variables in current shell instance.
