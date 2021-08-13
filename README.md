@@ -9,5 +9,5 @@ This is for IAM users with MFA enabled.
 - Create alias in your .zshrc or .bashrc
 
 ```
-alias sts='echo "Enter Token:";read token;. ~/Documents/aws/sts.sh $token'
+alias sts='echo "Enter Token:";read token;. ~/aws/sts.sh $token'
 ```
