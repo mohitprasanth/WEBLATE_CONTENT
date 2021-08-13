@@ -11,3 +11,11 @@ This is for IAM users with MFA enabled.
 ```
 alias sts='echo "Enter Token:";read token;. ~/aws/sts.sh $token'
 ```
+
+
+## Usage:
+```
+$ sts
+
+$ Enter Token: <Enter your MFA token>
+```
