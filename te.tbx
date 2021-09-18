@@ -12,7 +12,7 @@
         <body>
             <termEntry id="INVALID_BUDGET">
                 <langSet xml:lang="en"><tig><term>The provided budget is invalid.</term></tig></langSet>
-                <langSet xml:lang="te"><tig><term></term></tig></langSet>
+                <langSet xml:lang="te"><tig><term>అందించిన బడ్జెట్ చెల్లదు.</term></tig></langSet>
             </termEntry>
         </body>
     </text>
