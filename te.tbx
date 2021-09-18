@@ -16,7 +16,7 @@
             </termEntry>
             <termEntry id="INVALID_HOST">
                 <langSet xml:lang="en"><tig><term>Host is invalid</term></tig></langSet>
-                <langSet xml:lang="te"><tig><term></term></tig></langSet>
+                <langSet xml:lang="te"><tig><term>హోస్ట్ చెల్లదు</term></tig></langSet>
             </termEntry>
         </body>
     </text>
