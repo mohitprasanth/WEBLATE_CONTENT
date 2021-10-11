@@ -5,5 +5,10 @@
     "5103": "Unable to identify jobGroup",
     "5104": "Unable to identify campaigns, clientId not provided",
     "5105": "Failed to find any such campaign for given client",
-    "5106": "Unable to identify jobgroups, clientId not provided"
+    "5106": "Unable to identify jobgroups, clientId not provided",
+    "COMMON.sort": "Sort",
+    "COMMON.new": "New",
+    "COMMON.job": "Job",
+    "COMMON.id": "ID",
+    "COMMON.free": "Free"
 }
