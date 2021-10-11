@@ -1,1 +1,9 @@
-{}
+{
+    "5101": "Failed to find any client",
+    "5107": "UnAuthorized Access",
+    "5102": "Database failed to persist",
+    "5103": "Unable to identify jobGroup",
+    "5104": "Unable to identify campaigns, clientId not provided",
+    "5105": "Failed to find any such campaign for given client",
+    "5106": "Unable to identify jobgroups, clientId not provided"
+}
