@@ -1,1 +1,12 @@
-{}
+{
+    "5104": "Kampagnen können nicht identifiziert werden, Kunden-ID nicht angegeben",
+    "5106": "Job-Gruppen können nicht identifiziert werden, Kunden-ID nicht angegeben",
+    "5107": "Unautorisierter Zugriff",
+    "5103": "Job-Gruppe kann nicht identifiziert werden",
+    "5105": "Es konnte keine derartige Kampagne für den angegebenen Kunden gefunden werden",
+    "5102": "Datenbank konnte nicht beibehalten werden",
+    "5101": "Es konnte kein Kunde gefunden werden",
+    "COMMON.sort": "Sort_de",
+    "COMMON.new": "New_de",
+    "COMMON.job": "Job_de"
+}
