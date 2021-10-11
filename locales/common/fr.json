@@ -1,1 +1,12 @@
-{}
+{
+    "5101": "Cette API n'est pas prise en charge",
+    "5102": "Aucun client trouvé",
+    "5103": "Impossible d'identifier un groupe de travail",
+    "5104": "Impossible d'identifier les campagnes, l’ID du client n'est pas fourni",
+    "5105": "Impossible de trouver une telle campagne pour un client donné",
+    "5106": "Incapable d'identifier les groupes d'emploi, l’ID du client n'a pas été fourni",
+    "5107": "Accès non autorisé",
+    "COMMON.sort": "Sort_fr",
+    "COMMON.new": "New_fr",
+    "COMMON.job": "Job_fr"
+}
