@@ -8,5 +8,7 @@
     "5101": "Es konnte kein Kunde gefunden werden",
     "COMMON.sort": "Sort_de",
     "COMMON.new": "New_de",
-    "COMMON.job": "Job_de"
+    "COMMON.job": "Job_de",
+    "COMMON.id": "",
+    "COMMON.free": ""
 }
