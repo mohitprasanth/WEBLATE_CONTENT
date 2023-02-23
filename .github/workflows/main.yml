@@ -1,0 +1,33 @@
+name: gitleaks-scan
+on:
+	push:
+		branches: [ main]
+	pull_request:
+		branches: [main]
+jobs:
+	secrets-scan:
+		runs-on: ubuntu-latest
+		steps:
+		- uses: actions/checkout@v3
+		- name: setup Gitlesks
+		  run: |
+		  	brew install gitleaks
+		- name: Secret Scan
+		  run: |
+		  	gitleaks detect -s ${{github.workspace}) -f csv -r output.csv
+		  continue-on-error: true
+		- name: Check file content
+		  id: report
+		  run: |
+		  	if [ -s output.csv ]; then
+		  		echo "@ Leaks detected secrets @"
+		  	 	echo "::set-output name=secrets::1"
+		  	else
+		  		echo “Ho secrets or credentials were found”
+		  	fi
+		- name: Upload artifacts
+		if: ${{steps.report.outputs.secrets}}
+		uses: actions/upload-artifact@v3.1.0
+		with:
+			name: Gitleaks-report
+			path: output.csv
